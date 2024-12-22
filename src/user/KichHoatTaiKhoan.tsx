@@ -31,6 +31,7 @@ function KichHoatTaiKhoan(){
 
             if(response.ok){
                 setDaKichHoat(true);
+                
             }else{
                 const errorText = await response.text();
                 setThongBao(errorText);
