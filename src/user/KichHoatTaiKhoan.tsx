@@ -44,7 +44,7 @@ function KichHoatTaiKhoan(){
             <h1>Kích hoạt tài khoản</h1>
             {
             daKichHoat
-            ? (
+            ?(
                 <p> Tài khoản đã kích hoạt thành công, bạn hãy đăng nhập để tiếp tục sử dụng dịch vụ!</p>
             ) 
             : (
